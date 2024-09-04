@@ -15,4 +15,16 @@ public class TestPage extends PageObject {
         find(btnLogin).click(); //иетодп назодит элемент и повесили на нешл оюраюоьчкт click
         return this;
     }
+    public TestPage writeEmail (String email) {
+        find(inputEmail).sendKeys(email);
+        return this;
+    }
+    public TestPage writePassword (String password){
+        find(inputPassword).sendKeys(password);
+        return this;
+    }
+    public TestPage clickBtnLoginInForm () {
+        find(btnLoginInForm).click();
+        return this;
+    }
 }
