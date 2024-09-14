@@ -12,9 +12,13 @@ public class GoogleSearchTest {
     @Test
     public void itIsPossibleToFindWeatherUsingSearch() {
         search.openGoogleSearch();
-        search.acceptCookies();
+        search.enterValue();
+        search.enterSearchNameMovie("Mad max");
+        search.enterMadMaxMovie();
+        search.clickPlayMadMaxMovie();
+        /*search.acceptCookies();
         search.typeIntoSearchTextarea("Weather Łódz");
-        search.temperatureIsUnder(20);
+        search.temperatureIsUnder(30);*/
 
     }
 }
