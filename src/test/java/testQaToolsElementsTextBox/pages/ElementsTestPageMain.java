@@ -1,4 +1,4 @@
-package testQaTools.pages;
+package testQaToolsElementsTextBox.pages;
 
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
